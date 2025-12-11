@@ -1,31 +1,28 @@
 <script lang="ts">
-  // Logos would typically be imports, using text placeholders or SVGs for now
-  const logos = [
-    "Allianz",
-    "BMW",
-    "Lufthansa",
-    "Spotify",
-    "Red Bull"
+  const achievements = [
+    "170+ Google Reviews",
+    "Top 3 in Brantford",
+    "Same-Day Emergency",
+    "CDCP Accepted"
   ];
 </script>
 
-<section class="relative min-h-screen flex flex-col justify-end pb-20 px-6 md:px-12 bg-gradient-to-b from-[#2a1b5e] via-[#d4a8a8] to-[#fdfbf7] text-[#1a1a1a]">
-  <!-- Gradient overlay/background handling -->
-  <div class="absolute inset-0 z-[-1] bg-[linear-gradient(180deg,#2e2166_0%,#8c5e8f_40%,#e6b99c_70%,#fff_100%)]"></div>
+<section class="relative min-h-screen flex flex-col justify-end pb-20 px-6 md:px-12 bg-white text-[#1a1a1a]">
+  <!-- Background image -->
+  <div class="absolute inset-0 z-[-1]">
+    <img src="/generated/image-welcoming-dental-reception-area-with-fri-1765492050442-0.webp" alt="Brantford North Dental" class="w-full h-full object-cover opacity-20" />
+    <div class="absolute inset-0 bg-gradient-to-b from-white/60 via-white/80 to-white"></div>
+  </div>
 
   <div class="max-w-4xl mb-32 pt-40">
     <h1 class="text-3xl md:text-5xl font-medium leading-[1.15] tracking-tight">
-      Your 0 to 1 Partner for Digital Innovation. <span class="text-gray-500">Blending consultancy expertise with agency craft and creativity, we lead ambitious companies from Insight to Impact—fast.</span>
+      Let our family take care of yours. <span class="text-gray-500">Personalized family dentistry in Brantford with familiar faces, comprehensive treatment options, and a focus on making every patient feel comfortable and cared for.</span>
     </h1>
   </div>
 
-  <div class="border-t border-gray-300 pt-8 flex flex-wrap gap-8 md:gap-16 items-center opacity-60 grayscale">
-    {#each logos as logo}
-      <div class="h-8 flex items-center justify-center font-bold text-xl">{logo}</div>
+  <div class="border-t border-gray-300 pt-8 flex flex-wrap gap-8 md:gap-16 items-center opacity-70">
+    {#each achievements as achievement}
+      <div class="h-8 flex items-center justify-center font-medium text-sm">{achievement}</div>
     {/each}
-    <!-- Add more specific logo placeholders if needed -->
-    <div class="h-8 w-20 bg-gray-400/20 rounded"></div>
-    <div class="h-8 w-20 bg-gray-400/20 rounded"></div>
-    <div class="h-8 w-20 bg-gray-400/20 rounded"></div>
   </div>
 </section>

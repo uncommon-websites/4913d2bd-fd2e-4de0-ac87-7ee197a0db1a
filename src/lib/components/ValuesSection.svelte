@@ -1,28 +1,28 @@
 <script lang="ts">
   const photos = [
     {
-      title: "Fitness Meets Work",
-      desc: "Stay healthy with our dedicated gym and personal training part of our employee wellness program.",
-      img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=400"
+      title: "Modern Technology",
+      desc: "We invest in the latest dental technology to provide precise, comfortable, and efficient treatment for all our patients.",
+      img: "/generated/image-modern-dental-technology-equipment-in-a--1765492062739-4.webp"
     },
     {
-      title: "Your Social Hub",
-      desc: "Located in vibrant city centers, our offices are places for connection and face-to-face collaboration.",
-      img: "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?auto=format&fit=crop&q=80&w=400"
+      title: "Comfortable Environment",
+      desc: "Our office is designed to reduce anxiety with a welcoming atmosphere, comfortable seating, and a friendly team that remembers you.",
+      img: "/generated/image-comfortable-dental-waiting-room-with-nat-1765492071817-7.webp"
     },
     {
-      title: "Fueling Creativity",
-      desc: "We care about good food—our in-house chef ensures everyone stays energized and inspired.",
-      img: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=400"
+      title: "Family-Focused Care",
+      desc: "From Tooth Fairy Certificates for kids to gentle care for anxious adults, we make dental visits positive experiences for the whole family.",
+      img: "/generated/image-dentist-examining-a-child-patient-while--1765492059908-3.webp"
     }
   ];
 </script>
 
 <section class="py-24 px-6 md:px-12 bg-white">
   <div class="max-w-xl mb-16">
-    <h3 class="text-lg font-bold mb-2">We focus on people, not just projects.</h3>
+    <h3 class="text-lg font-bold mb-2">We focus on patients, not just procedures.</h3>
     <p class="text-gray-500 text-sm leading-relaxed">
-      In a world of digital meetings, we value face-to-face connections. Our culture is built on trust, freedom, and support, fostering personal growth and collaboration that goes beyond just completing tasks—it's about enjoying the journey together.
+      In a world of impersonal corporate clinics, we value personal connections and continuity of care. Our practice is built on trust, comfort, and genuine relationships, ensuring every patient feels heard, understood, and cared for—not like just another number.
     </p>
   </div>
 

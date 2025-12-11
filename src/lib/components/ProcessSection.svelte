@@ -3,31 +3,31 @@
 
   const steps = [
     {
-      id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      id: "book",
+      title: "Book Your Appointment",
+      text: "Getting started is easy. Book online, call us at 519-759-0049, or use our live chat. We offer flexible scheduling including same-day emergency appointments when you need urgent care.",
+      tags: ["Online Booking", "Phone Appointments", "Live Chat Support", "Same-Day Emergency", "Flexible Scheduling", "New Patient Welcome"],
       graphic: "lines"
     },
     {
-      id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      id: "welcome",
+      title: "Feel Welcome & Comfortable",
+      text: "From the moment you arrive, our familiar faces and personalized approach help you feel at ease. We take time to understand your unique needs, concerns, and dental goals—especially if you experience dental anxiety.",
+      tags: ["Personalized Greeting", "Anxiety Management", "Comfort-Focused Care", "Patient History Review", "Treatment Discussion", "Questions Welcome"],
       graphic: "curve"
     },
     {
-      id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      id: "treatment",
+      title: "Receive Expert Care",
+      text: "Our experienced team uses modern technology and gentle techniques to provide comprehensive dental care. We explain every step and offer various treatment options to fit your needs and budget.",
+      tags: ["Comprehensive Exams", "Modern Technology", "Gentle Techniques", "Treatment Options", "Budget-Friendly Plans", "Quality Care"],
       graphic: "circle-top"
     },
     {
-      id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
+      id: "care",
+      title: "Ongoing Support & Care",
+      text: "Your relationship with us doesn't end when you leave. We provide follow-up care, answer questions via our 'Ask Dr. D' feature, and help you maintain your smile with preventive care and regular checkups.",
+      tags: ["Follow-Up Care", "Ask Dr. D", "Preventive Plans", "Regular Checkups", "Ongoing Support", "Family Continuity"],
       graphic: "circle-waves"
     }
   ];
@@ -63,7 +63,7 @@
   });
 </script>
 
-<section class="bg-[#1a1a40] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
+<section class="bg-[oklch(0.141_0.005_285.823)] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
   <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-12">
     
     <!-- Sticky Navigation -->
@@ -71,7 +71,7 @@
       <div class="space-y-8">
         {#each steps as step, i}
           <div class="transition-opacity duration-500 {i === activeStep ? 'opacity-100' : 'opacity-30'}">
-            <p class="text-xl md:text-2xl font-light mb-1">People work with us to</p>
+            <p class="text-xl md:text-2xl font-light mb-1">Your dental journey:</p>
             <h2 class="text-2xl md:text-3xl font-bold">{step.title}</h2>
           </div>
         {/each}
